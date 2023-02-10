@@ -4,44 +4,56 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="styles.css">
     <title>Erik Stein</title>
 </head>
 <body>
-    <nav class="navbar bg-body-tertiary">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="index.html">Erik Stein</a>
-          <a class ="navbar-brand" href="https://www.instagram.com/erik.stein.tattoos/?hl=en">
-            Contact<svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 48 48" width="48px" height="48px"><radialGradient id="yOrnnhliCrdS2gy~4tD8ma" cx="19.38" cy="42.035" r="44.899" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#fd5"/><stop offset=".328" stop-color="#ff543f"/><stop offset=".348" stop-color="#fc5245"/><stop offset=".504" stop-color="#e64771"/><stop offset=".643" stop-color="#d53e91"/><stop offset=".761" stop-color="#cc39a4"/><stop offset=".841" stop-color="#c837ab"/></radialGradient><path fill="url(#yOrnnhliCrdS2gy~4tD8ma)" d="M34.017,41.99l-20,0.019c-4.4,0.004-8.003-3.592-8.008-7.992l-0.019-20	c-0.004-4.4,3.592-8.003,7.992-8.008l20-0.019c4.4-0.004,8.003,3.592,8.008,7.992l0.019,20	C42.014,38.383,38.417,41.986,34.017,41.99z"/><radialGradient id="yOrnnhliCrdS2gy~4tD8mb" cx="11.786" cy="5.54" r="29.813" gradientTransform="matrix(1 0 0 .6663 0 1.849)" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#4168c9"/><stop offset=".999" stop-color="#4168c9" stop-opacity="0"/></radialGradient><path fill="url(#yOrnnhliCrdS2gy~4tD8mb)" d="M34.017,41.99l-20,0.019c-4.4,0.004-8.003-3.592-8.008-7.992l-0.019-20	c-0.004-4.4,3.592-8.003,7.992-8.008l20-0.019c4.4-0.004,8.003,3.592,8.008,7.992l0.019,20	C42.014,38.383,38.417,41.986,34.017,41.99z"/><path fill="#fff" d="M24,31c-3.859,0-7-3.14-7-7s3.141-7,7-7s7,3.14,7,7S27.859,31,24,31z M24,19c-2.757,0-5,2.243-5,5	s2.243,5,5,5s5-2.243,5-5S26.757,19,24,19z"/><circle cx="31.5" cy="16.5" r="1.5" fill="#fff"/><path fill="#fff" d="M30,37H18c-3.859,0-7-3.14-7-7V18c0-3.86,3.141-7,7-7h12c3.859,0,7,3.14,7,7v12	C37,33.86,33.859,37,30,37z M18,13c-2.757,0-5,2.243-5,5v12c0,2.757,2.243,5,5,5h12c2.757,0,5-2.243,5-5V18c0-2.757-2.243-5-5-5H18z"/></svg>
-          </a>
+    <div class="profile container flex content-center gap-4">
+        <div class="profile-images basis-2/4">
+            <img src="images/profile1.jpeg" class="profile-img" alt="photo of Erik Stein tattooing a client">
+            <!-- <img src="images/profile2.jpeg" class="profile-img" alt="portrait photo of Erik Stein"> -->
         </div>
-    </nav>
-    <div class="main">
-        <div>
-            <div class="container-hero">
-                <h1>Erik Stein</h1>
-            </div>
-            <div class="container-about">
-                <h2>ABOUT ME</h2>
-                <p>I am an accomplished tattoo artist with 5 years of experience. Based out of Orange County, CA.
-                    Specializing in black and grey realism. Currently partnered with Greyscale Tattoo Studio located in Anaheim, CA.</p>
-            </div>
-        </div>
-        <h2>MY WORK</h2>
-        <div class="container-work">
-            <img src="images/1.jpeg" alt="Tattoo piece">
-            <img src="images/2.jpeg" alt="Tattoo piece">
-            <img src="images/3.jpeg" alt="Tattoo piece">
-            <img src="images/4.jpeg" alt="Tattoo piece">
-            <img src="images/5.jpeg" alt="Tattoo piece">
-            <img src="images/6.jpeg" alt="Tattoo piece">
-            <img src="images/7.jpeg" alt="Tattoo piece">
-            <img src="images/8.jpeg" alt="Tattoo piece">
-            <img src="images/9.jpeg" alt="Tattoo piece">
+        <div class="profile-bio order-last basis-2/4">
+            <h1>Erik Stein</h1>
+            <ul>
+                <li>I am an accomplished tattoo artist with 5 years of experience 💪</li>
+                <li>Based out of Orange County, CA 🍊</li>
+                <li>Specializing in black and grey realism ✍️</li>
+                <li>Currently partnered with Greyscale Tattoo Studio located in Anaheim, CA 📍</li>
+            </ul>
         </div>
     </div>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <div class="contact-btn text-center">
+        <a href="https://www.instagram.com/erik.stein.tattoos/?hl=en">
+            <button>Contact Me</button>
+        </a>
+    </div>
+    <div class="coverUps flex gap-4">
+        <div class="coverUps-text basis-2/4">
+            <h2>One of My Favorite Cover-Ups</h2>
+            <p>
+                My client came to me dissatisfied with his current work. 
+                He had an unfinished Foodog and his ex-girlfriend's name.
+                After my services, my client left with his dream tattoo.
+            </p>
+        </div>
+        <div class="coverUps-images basis-2/4">
+            <img src="images/coverUp-After.jpeg" class="coverUp-img" alt="photo of client's arm after cover up">
+            <!-- <img src="images/coverUp-Before.jpeg" class="coverUp-img" alt="photo of client's arm before cover up"> -->
+        </div>
+    </div>
+    <h2 class="text-center">Some of My Favorite Pieces</h2>
+    <div class="work flex flex-wrap content-center gap-6">
+        <img src="images/work1.jpeg" alt="photo of Dragon Ball Z tattoo">
+        <img src="images/work2.jpeg" alt="photo of Joker tattoo">
+        <img src="images/work3.jpeg" alt="photo of Pennywise tattoo">
+        <img src="images/work4.jpeg" alt="photo of Heintai tattoo">
+        <img src="images/work5.jpeg" alt="photo of Medusa tattoo">
+        <img src="images/work6.jpeg" alt="photo of Evil Nun tattoo">
+        <img src="images/work7.jpeg" alt="photo of Dove tattoo">
+        <img src="images/work8.jpeg" alt="photo of Eye tattoo">
+    </div>
     <script src="script.js"></script>
 </body>
 </html>
