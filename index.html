@@ -6,54 +6,55 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="styles.css">
-    <title>Erik Stein</title>
+    <title>Erik Stein - Portfolio</title>
 </head>
-<body>
-    <div class="profile container flex content-center gap-4">
-        <div class="profile-images basis-2/4">
-            <img src="images/profile1.jpeg" class="profile-img" alt="photo of Erik Stein tattooing a client">
+<body class="bg-neutral-600">
+    <div class="profile container flex gap-4 items-center place-content-center">
+        <div class="profile-images w-1/2 p-2 m-2">
+            <img src="images/profile1.jpeg" class="profile-img shadow-xl shadow-black" alt="photo of Erik Stein tattooing a client">
             <!-- <img src="images/profile2.jpeg" class="profile-img" alt="portrait photo of Erik Stein"> -->
         </div>
-        <div class="profile-bio order-last basis-2/4">
-            <h1>Erik Stein</h1>
-            <ul>
+        <div class="profile-bio w-1/2 p-2 m-2 text-center">
+            <h1 class="font-mono text-3xl font-medium">Erik Stein</h1>
+            <ul class="font-mono text-lg">
                 <li>I am an accomplished tattoo artist with 5 years of experience 💪</li>
                 <li>Based out of Orange County, CA 🍊</li>
-                <li>Specializing in black and grey realism ✍️</li>
                 <li>Currently partnered with Greyscale Tattoo Studio located in Anaheim, CA 📍</li>
             </ul>
+            <a href="https://www.instagram.com/erik.stein.tattoos/?hl=en" class="font-mono text-lg">
+                <button class="bg-red-600 shadow-md shadow-black">Contact Me</button>
+            </a>
         </div>
     </div>
-    <div class="contact-btn text-center">
-        <a href="https://www.instagram.com/erik.stein.tattoos/?hl=en">
-            <button>Contact Me</button>
-        </a>
-    </div>
-    <div class="coverUps flex gap-4">
-        <div class="coverUps-text basis-2/4">
-            <h2>One of My Favorite Cover-Ups</h2>
-            <p>
+    <div class="coverUps flex gap-4 items-center">
+        <div class="coverUps-text w-1/2 p-6 text-center">
+            <h2 class="font-mono text-2xl">One of My Favorite Cover-Ups</h2>
+            <p class="font-mono text-lg">
                 My client came to me dissatisfied with his current work. 
                 He had an unfinished Foodog and his ex-girlfriend's name.
                 After my services, my client left with his dream tattoo.
             </p>
         </div>
-        <div class="coverUps-images basis-2/4">
-            <img src="images/coverUp-After.jpeg" class="coverUp-img" alt="photo of client's arm after cover up">
+        <div class="coverUps-images w-1/2 p-6">
+            <img src="images/coverUp-After.jpeg" class="coverUp-img shadow-xl shadow-black" alt="photo of client's arm after cover up">
             <!-- <img src="images/coverUp-Before.jpeg" class="coverUp-img" alt="photo of client's arm before cover up"> -->
         </div>
     </div>
-    <h2 class="text-center">Some of My Favorite Pieces</h2>
-    <div class="work flex flex-wrap content-center gap-6">
-        <img src="images/work1.jpeg" alt="photo of Dragon Ball Z tattoo">
-        <img src="images/work2.jpeg" alt="photo of Joker tattoo">
-        <img src="images/work3.jpeg" alt="photo of Pennywise tattoo">
-        <img src="images/work4.jpeg" alt="photo of Heintai tattoo">
-        <img src="images/work5.jpeg" alt="photo of Medusa tattoo">
-        <img src="images/work6.jpeg" alt="photo of Evil Nun tattoo">
-        <img src="images/work7.jpeg" alt="photo of Dove tattoo">
-        <img src="images/work8.jpeg" alt="photo of Eye tattoo">
+    <h2 class="text-center p-6 font-mono text-2xl">Some of My Favorite Pieces</h2>
+    <div class="work flex flex-wrap justify-center gap-x-6 gap-y-4">
+        <img src="images/work1.jpeg" class="p-1 shadow-xl shadow-black" alt="photo of Dragon Ball Z tattoo">
+        <img src="images/work2.jpeg" class="p-1 shadow-xl shadow-black" alt="photo of Joker tattoo">
+        <img src="images/work3.jpeg" class="p-1 shadow-xl shadow-black" alt="photo of Pennywise tattoo">
+        <img src="images/work4.jpeg" class="p-1 shadow-xl shadow-black" alt="photo of Heintai tattoo">
+        <img src="images/work5.jpeg" class="p-1 shadow-xl shadow-black" alt="photo of Medusa tattoo">
+        <img src="images/work6.jpeg" class="p-1 shadow-xl shadow-black" alt="photo of Evil Nun tattoo">
+        <img src="images/work7.jpeg" class="p-1 shadow-xl shadow-black" alt="photo of Dove tattoo">
+        <img src="images/work8.jpeg" class="p-1 shadow-xl shadow-black" alt="photo of Eye tattoo">
     </div>
+    <br>
+    <footer class="text-center font-mono">
+        Created by Chase Vriend with help from ☕️
+    </footer>
     <script src="script.js"></script>
 </body>
 </html>
