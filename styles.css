@@ -7,17 +7,18 @@ img {
 }
 
 body {
-    align-items: center;
+    color: white;
+}
+
+.coverUps-images img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.coverUps p {
+    max-width: 25em;
     text-align: center;
-}
-
-.profile .coverUps {
-    align-items: center;
-    justify-content: center;
-    justify-items: center;
-}
-
-.work {
-    justify-content: center;
-    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
 }
