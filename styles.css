@@ -39,3 +39,11 @@ body {
 button {
     border-radius: 12px;
 }
+
+img {
+    width: 150px;
+    height: 150px;
+    background-size: cover;
+}
+
+

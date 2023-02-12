@@ -11,11 +11,6 @@
 <body class="bg-zinc-900">
     <div class="profile gap-4">
         <h1 class="font-mono text-5xl font-medium m-2">Erik Stein</h1>
-        <div class="profile-pic">
-            <!-- rotating images of Erik with time -->
-            <img src="images/profile1.jpeg" alt="Photo of Erik tattooing a client">
-            <!-- <img src="images/profile2.jpeg" alt="Portrait photo of Erik"> -->
-        </div>
         <div class="profile-images p-2 m-2 text-center">
             <br>
             <!-- few useful facts of Erik -->
@@ -40,14 +35,14 @@
         </div>
         <div class="coverUps-images p-6">
             <!-- rotating images of before and after cover ups with buttons -->
-            <img src="images/coverUp-After.jpeg" class="coverUp-img shadow-xl shadow-black" alt="photo of client's arm after cover up">
-            <!-- <img src="images/coverUp-Before.jpeg" class="coverUp-img" alt="photo of client's arm before cover up"> -->
-            <button class="bg-stone-600 p-3 m-3">Before</button>
-            <button class="bg-stone-600 p-3 m-3">After</button>
+            <img src="images/coverUp-After.jpeg" class="coverUp-img shadow-xl shadow-black" id="afterimg" alt="photo of client's arm after cover up">
+            <!-- <img src="images/coverUp-Before.jpeg" class="coverUp-img shadow-xl shadow-black" id="beforeimg" alt="photo of client's arm before cover up"> -->
+            <button class="bg-stone-600 p-3 m-3" id="beforebtn" onclick="">Before</button>
+            <button class="bg-stone-600 p-3 m-3" id="afterbtn">After</button>
         </div>
     </div>
-    <h2 class="text-center p-6 font-mono text-3xl font-medium">My Portfolio</h2>
     <!-- showing off Erik's Portfolio of work -->
+    <h2 class="text-center p-6 font-mono text-3xl font-medium">My Portfolio</h2>
     <div class="work flex flex-wrap justify-center gap-x-6 gap-y-4">
         <img src="images/work1.jpeg" class="p-1 shadow-xl shadow-black" alt="photo of Dragon Ball Z tattoo">
         <img src="images/work2.jpeg" class="p-1 shadow-xl shadow-black" alt="photo of Joker tattoo">
