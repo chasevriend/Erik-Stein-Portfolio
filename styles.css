@@ -23,10 +23,6 @@ body {
     align-items: center;
 }
 
-.profile-pic button {
-    
-}
-
 .coverUps-images img {
     display: block;
     margin-left: auto;
@@ -38,4 +34,8 @@ body {
     text-align: center;
     margin-left: auto;
     margin-right: auto;
+}
+
+button {
+    border-radius: 12px;
 }
